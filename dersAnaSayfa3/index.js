@@ -1,4 +1,4 @@
-import {Image, StyleSheet, Text, View} from 'react-native';
+import {Image, StyleSheet, Text, TextInput, View} from 'react-native';
 import React from 'react';
 import style from './style';
 import icons from '../../assets/icons';
@@ -25,7 +25,7 @@ const index = () => {
           <View style={style.daire2}></View>
         </View>
         <View style={style.alanAnswer}>
-          <Text style={style.alanAnswerText}>Your Answer...</Text>
+          <TextInput style={style.alanAnswerText}>Your Answer...</TextInput>
         </View>
       </View>
     </View>
